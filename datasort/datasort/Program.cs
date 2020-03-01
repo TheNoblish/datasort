@@ -16,7 +16,7 @@ namespace datasort
             int size = Convert.ToInt32(Console.ReadLine());
             List<string> numberos = new List<string>();
             Stack<string> numbers = new Stack<string>();
-            for (int i = 0; i<= size; i++)
+            for (int i = 0; i< size; i++)
             {
                 Console.WriteLine("Enter value number " + i + ".");
                 string num = Console.ReadLine();
@@ -26,12 +26,12 @@ namespace datasort
             Console.WriteLine("Press Enter to sort values.");
             Console.ReadLine();
             Console.WriteLine("Stored Values:");
-            for (int i = 0; i <= size; i++)
+            for (int i = 0; i < size; i++)
             {
                 Console.WriteLine("Element " + i + " : " + numberos[i] + ".");
             }
             Console.WriteLine("Values sorted in reverse order:");
-            for (int i = 0; i <= size; i++)
+            for (int i = 0; i < size; i++)
             {
                 Console.WriteLine("Element " + i + " : " + numbers.Pop() + ".");
             }
